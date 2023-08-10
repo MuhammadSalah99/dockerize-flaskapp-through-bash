@@ -14,7 +14,7 @@ it will be running on [http://localhost:5000](http://127.0.0.1:5000)
 I wanted to try out bash with the docker build commands, so I wrote this bash file to help us manage and spin up our containers without much of a hassle.
 
 1. I created a Dockerfile with all the configurations to set up flask.
-2. I uploaded my image to [dockerhub] (https://hub.docker.com/repository/docker/muhammadssalah99/flask-ecs-terraform), so anyone can use it with the script. 
+2. I uploaded my image to [dockerhub](https://hub.docker.com/repository/docker/muhammadssalah99/flask-ecs-terraform), so anyone can use it with the script. 
 3. I created a bash file, with 3 varibles, the first Postgres password, the second Postgres user and finally Postgres databse.
 4. I took this step because its more secure and safe than having it hardcoded in the ```docker build``` command. 
 5. Then I check if the network that we need to use between our containers exits, if not create it 
